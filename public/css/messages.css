@@ -1,0 +1,42 @@
+.messages {
+  display: flex;
+  flex-direction: column;
+}
+
+.message {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  margin: 4px;
+  padding: 4px;
+}
+.message p {
+  display: block;
+  padding: 4px;
+}
+.message div {
+  display: flex;
+}
+.message div .date {
+  margin-left: auto;
+}
+.message div .user {
+  font-weight: 600;
+}
+
+#message-form {
+  display: flex;
+  margin: 16px 4px;
+  flex-direction: column;
+}
+#message-form textarea {
+  width: 100%;
+  margin: 4px 0;
+  height: 60px;
+  padding: 4px;
+}
+#message-form button {
+  margin: 4px 0;
+}

@@ -1,0 +1,39 @@
+body {
+    color: #333;
+    font-size: 12px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif
+}
+
+main {
+    margin: 0;
+    padding: 16px 32px;
+}
+
+header, footer {
+    margin: 0;
+    padding: 4px 32px;
+}
+
+h1 {
+    margin: 4px;
+}
+
+button {
+    background-color: rgba(79, 70, 229);
+    display: block;
+    padding: 0.75rem 2rem;
+    font-size: 1rem;
+    line-height: 1.5rem;
+    font-weight: 500;
+    justify-content: center;
+    color: #fff;
+    border-radius: 4px;
+    outline: none;
+    border: none;
+    box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06);
+    cursor: pointer;
+
+    &:hover {
+        background-color:  rgba(79, 70, 229, 0.94);
+    }
+}
