@@ -8,3 +8,4 @@
 - ./vendor/bin/sail npm install
 - ./vendor/bin/sail npm run watch 
 - go to localhost/messages
+- did not apply any validation
